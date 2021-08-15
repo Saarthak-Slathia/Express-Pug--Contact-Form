@@ -6,12 +6,11 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  transition: all 0.3s linear;
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
 form {
-  padding: 3rem;
-  background: #fff;
+  padding:3rem;
+  background:#fff;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
   border-radius: 12px;
 }
