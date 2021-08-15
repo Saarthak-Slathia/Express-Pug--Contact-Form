@@ -1,5 +1,5 @@
-// let input = document.querySelectorAll("input");
+// No Javascript here 😝
 
-// input.addEventListener("click", () => {
-//   input.style.borderColor = "var(--primary)";
-// });
+// Take a look at app.js
+
+// Do give your feedback on this.
