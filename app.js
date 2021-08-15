@@ -17,6 +17,9 @@ app.get("/", (req, res) => {
   res.status(200).render("index.pug");
 });
 
+// --------------------------------------------------------------------------------------------------
+
+// To Do when form is submitted.
 app.post("/", (req, res) => {
   let output = req.body;
   let name = req.body.name;
@@ -38,6 +41,10 @@ app.post("/", (req, res) => {
   res.status(200).render("fill.pug");
 });
 
+
+// ------------------------------------------------------------------
+
+// Listening on PORT 80
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });
