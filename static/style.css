@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-
 :root {
   --primary: #357cff;
   --secondary: #222;
 }
-
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   transition: all 0.3s linear;
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
