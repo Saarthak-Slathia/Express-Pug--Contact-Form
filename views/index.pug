@@ -1,0 +1,16 @@
+doctype html
+html
+  style 
+    include ../static/style.css
+  body
+    form(action="/" method="POST")
+            h2 Contact Us
+            h3 Enter your query below
+            input#name(type="text", name="name" placeholder="Enter your Name" required="required") 
+            input#email(type="email", name="email" placeholder="Enter your Email" required="required") 
+            input#phone(type="tel", name="phone" placeholder="Enter your Phone" required="required") 
+            input#query(type="text", name="query" placeholder="Enter your query" required="required") 
+            button.btn Submit
+
+  script 
+    include ../static/script.js
